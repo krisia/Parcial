@@ -1,0 +1,226 @@
+.navbar {
+	margin-bottom: 0;
+	background-color:black;
+}
+
+.jumbotron{
+	background-image: url("../images/fondo1.jpg");
+	color:#fff;
+	padding:10px 0;
+
+}
+
+.jumbotron .titulo{
+	font-size:50px;
+}
+
+.jumbotron1{
+	background-image: url("../images/fondo.jpg");
+	color:#fff;
+	padding:4px 0;
+
+}
+
+
+.main{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.post{
+padding-bottom:20px;
+margin-bottom:20px;
+border-bottom:1px solid #999;
+}
+
+.post .post-title a {
+	color:#333;
+}
+
+.post .thumb{
+	margin-right:1opx;
+	width:40%;
+}
+
+.post .thumb img{
+	width:100%;
+}
+
+.post .contenedor-botones{
+	width:100%;
+}
+.breadcrumb{
+	background-color:skyblue;
+}
+
+@media screen and (max-width: 768px){
+	.post .thumb{
+		width:100%;
+		margin-bottom:20px;
+		margin-right:0;
+	}
+}
+////galeria de calzado
+#galeria {
+  background: #fff ;
+  display: inline-block;
+  max-width: 900px;
+  margin: 1rem auto;
+  padding: 0 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), 0 15px 15px -12px rgba(0, 0, 0, 0.35);
+  text-align: center;
+  border-radius: 3px;
+ }
+figure#filtro0 {
+  margin: 0 0 15px;
+  padding: 0;
+  text-align: center;
+  letter-spacing: 10px;
+ }
+figure#filtro0 img {
+  width: 0px; /*no queremos mostrarlas de entrada*/
+  margin: 10px 0 0 0;
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 15px 15px -12px rgba(0, 0, 0, 0.55);
+  border-top: 1px solid #e0e0e0;
+  transition: 1s;
+ }
+input[type=radio] {display: none;}
+
+input#bebe :checked ~ figure img.bebe { width: 250px;}
+
+input#bebe:checked ~ figure img:not(.bebe) {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+ }
+ 
+ figure#filtro1 {
+  margin: 0 0 15px;
+  padding: 0;
+  text-align: center;
+  letter-spacing: 10px;
+ }
+figure#filtro1 img {
+  width: 0px; /*no queremos mostrarlas de entrada*/
+  margin: 10px 0 0 0;
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 15px 15px -12px rgba(0, 0, 0, 0.55);
+  border-top: 1px solid #e0e0e0;
+  transition: 1s;
+ }
+ 
+input#caballero :checked ~ figure img.caballero { width: 250px;}
+
+input#caballero:checked ~ figure img:not(.caballero) {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+ }
+ 
+ 
+ figure#filtro2 {
+  margin: 0 0 15px;
+  padding: 0;
+  text-align: center;
+  letter-spacing: 10px;
+ }
+figure#filtro2 img {
+  width: 0px; /*no queremos mostrarlas de entrada*/
+  margin: 10px 0 0 0;
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 15px 15px -12px rgba(0, 0, 0, 0.55);
+  border-top: 1px solid #e0e0e0;
+  transition: 1s;
+ }
+ 
+input#dama :checked ~ figure img.dama { width: 250px;}
+
+input#dama:checked ~ figure img:not(.dama) {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+ }
+ 
+ 
+ figure#filtro3 {
+  margin: 0 0 15px;
+  padding: 0;
+  text-align: center;
+  letter-spacing: 10px;
+ }
+figure#filtro3 img {
+  width: 0px; /*no queremos mostrarlas de entrada*/
+  margin: 10px 0 0 0;
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 15px 15px -12px rgba(0, 0, 0, 0.55);
+  border-top: 1px solid #e0e0e0;
+  transition: 1s;
+ }
+ 
+input#tennism :checked ~ figure img.tennism { width: 250px;}
+
+input#tennism:checked ~ figure img:not(.tennism) {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+ }
+ 
+ figure#filtro4 {
+  margin: 0 0 15px;
+  padding: 0;
+  text-align: center;
+  letter-spacing: 10px;
+ }
+figure#filtro4 img {
+  width: 0px; /*no queremos mostrarlas de entrada*/
+  margin: 10px 0 0 0;
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 15px 15px -12px rgba(0, 0, 0, 0.55);
+  border-top: 1px solid #e0e0e0;
+  transition: 1s;
+ }
+ 
+input#tennis :checked ~ figure img.tennis { width: 250px;}
+
+input#tennis:checked ~ figure img:not(.tennis) {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ input#todo:checked ~ figure img {
+  width: 160px;
+  display: inline-block;
+  /*resto de declaraciones*/
+}
+
+input#x:checked ~ figure img {
+  width:0;
+  opacity:0;
+  transition: .5s;
+}
+input#x + label {
+  padding:5px;
+  border-radius: 50%;
+  background: #eee;
+  color: #999;
+  font-size: 1.5rem;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), 0 5px 8px -4px rgba(0, 0, 0, 0.45) inset;
+} 
+
+

@@ -1,0 +1,70 @@
+.navbar {
+	margin-bottom: 0;
+	background-color: black;
+}
+
+.jumbotron{
+	background-image: url("../images/fondo3.jpg");
+	color: black;
+	padding:20px 0;
+
+}
+
+.jumbotron .titulo{
+	font-size:50px;
+}
+
+.main{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.post{
+padding-bottom:20px;
+margin-bottom:20px;
+border-bottom:1px solid #999;
+}
+
+.post .post-title a {
+	color:#333;
+}
+
+.post .thumb{
+	margin-right:1opx;
+	width:40%;
+}
+
+.post .thumb img{
+	width:100%;
+}
+
+.post .contenedor-botones{
+	width:100%;
+}
+.breadcrumb{
+	background-color:skyblue;
+}
+
+@media screen and (max-width: 768px){
+	.post .thumb{
+		width:100%;
+		margin-bottom:20px;
+		margin-right:0;
+	}
+}
+
+/////Imagenes de venta del tacon narrow
+
+#webs{
+background: black;
+text-align: center;
+padding:50px;
+}
+#webs article{
+padding: 10px;
+border: 0px solid white;
+display: inline-block;
+width:180px;
+background:#ccc;
+margin:30px;
+}
